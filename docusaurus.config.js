@@ -1,6 +1,6 @@
 module.exports = {
-	title: '前端日誌',
-	tagline: '希望嘿嘿',
+	title: 'AlbertNotes',
+	tagline: '',
 	url: 'https://albertnotes.github.io/',
 	baseUrl: '/docusaurus-blog/',
 	onBrokenLinks: 'throw',
@@ -10,19 +10,19 @@ module.exports = {
 	projectName: 'docusaurus-blog', // Usually your repo name.
 	themeConfig: {
 		navbar: {
-			title: 'My Site',
+			title: 'AlbertNotes',
 			logo: {
 				alt: 'My Site Logo',
 				src: 'img/logo.svg',
 			},
 			items: [
+				{ to: '/tags', label: 'Tags', position: 'left' },
 				{
 					to: 'docs/',
 					activeBasePath: 'docs',
 					label: 'Docs',
 					position: 'left',
 				},
-				{ to: 'blog', label: 'Blog', position: 'left' },
 				{
 					href: 'https://github.com/albertnotes/docusaurus-blog',
 					label: 'GitHub',
@@ -32,34 +32,34 @@ module.exports = {
 		},
 		footer: {
 			style: 'dark',
-			links: [
-				{
-					title: 'Docs',
-					items: [
-						{
-							label: 'Style Guide',
-							to: 'docs/',
-						},
-						{
-							label: 'Second Doc',
-							to: 'docs/doc2/',
-						},
-					],
-				},
-				{
-					title: 'More',
-					items: [
-						{
-							label: 'Blog',
-							to: 'blog',
-						},
-						{
-							label: 'GitHub',
-							href: 'https://github.com/albertnotes',
-						},
-					],
-				},
-			],
+			// links: [
+			// 	{
+			// 		title: 'Docs',
+			// 		items: [
+			// 			{
+			// 				label: 'Style Guide',
+			// 				to: 'docs/',
+			// 			},
+			// 			{
+			// 				label: 'Second Doc',
+			// 				to: 'docs/doc2/',
+			// 			},
+			// 		],
+			// 	},
+			// 	{
+			// 		title: 'More',
+			// 		items: [
+			// 			{
+			// 				label: 'Tags',
+			// 				to: '/tags',
+			// 			},
+			// 			{
+			// 				label: 'GitHub',
+			// 				href: 'https://github.com/albertnotes',
+			// 			},
+			// 		],
+			// 	},
+			// ],
 			copyright: `Copyright © ${new Date().getFullYear()} Albert, All rights reserved.`,
 		},
 	},
@@ -75,6 +75,7 @@ module.exports = {
 				},
 				blog: {
 					showReadingTime: true,
+					routeBasePath: '/',
 					// Please change this to your repo.
 					editUrl:
 						'https://github.com/albertnotes/docusaurus-blog/edit/master/blog/',
@@ -89,12 +90,12 @@ module.exports = {
 		[
 			'@docusaurus/plugin-client-redirects',
 			{
-				redirects: [
-					{
-						to: '/blog', // string
-						from: 'index', // string | string[]
-					},
-				],
+				createRedirects: function (existingPath) {
+					console.log(existingPath);
+					if (existingPath === '/docs/newDocPath2') {
+						return ['/docs/oldDocPath2'];
+					}
+				},
 			},
 		],
 	],
