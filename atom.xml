@@ -2,30 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://albertnotes.github.io/</id>
     <title>AlbertNotes Blog</title>
-    <updated>2019-05-30T00:00:00.000Z</updated>
+    <updated>2020-09-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://albertnotes.github.io/"/>
     <subtitle>AlbertNotes Blog</subtitle>
     <icon>https://albertnotes.github.io/img/favicon.ico</icon>
+    <rights>Copyright © 2021 Albert, All rights reserved.</rights>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://albertnotes.github.io/docusaurus-blog/welcome"/>
-        <updated>2019-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
+        <title type="html"><![CDATA[ssh-key 指令產生]]></title>
+        <id>2020/09/17/ssh-key</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/09/17/ssh-key"/>
+        <updated>2020-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GUI 或是指令產生？]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>hello-world</id>
-        <link href="https://albertnotes.github.io/docusaurus-blog/hello-world"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
+        <title type="html"><![CDATA[物件合併]]></title>
+        <id>2020/09/04/knowledge</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/09/04/knowledge"/>
+        <updated>2020-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[30s\_ OF knowledge 介紹]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hola]]></title>
-        <id>hola</id>
-        <link href="https://albertnotes.github.io/docusaurus-blog/hola"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <title type="html"><![CDATA[填充字串符、閉包]]></title>
+        <id>2020/08/24/knowledge</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/08/24/knowledge"/>
+        <updated>2020-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前言]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[選取文本樣式]]></title>
+        <id>2020/08/24/knowledge1</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/08/24/knowledge1"/>
+        <updated>2020-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前言]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fisher-Yates 演算法]]></title>
+        <id>2020/08/23/knowledge</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/08/23/knowledge"/>
+        <updated>2020-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前言]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[數字累加器]]></title>
+        <id>2020/08/22/knowledge</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/08/22/knowledge"/>
+        <updated>2020-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前言]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sass Source Map]]></title>
+        <id>2020/05/04/sass</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/05/04/sass"/>
+        <updated>2020-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前言]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加強程式邏輯up! - 虛擬碼]]></title>
+        <id>2020/05/01/leetcode</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/05/01/leetcode"/>
+        <updated>2020-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[虛擬碼介紹擷取維基百科如下]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codepen 將你的程式碼分享給別人]]></title>
+        <id>2020/04/16/codepen</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/04/16/codepen"/>
+        <updated>2020-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[開始前需了解]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[從 0 到 1 的 GitHub Pages 教學手冊]]></title>
+        <id>2020/04/13/github-page</id>
+        <link href="https://albertnotes.github.io/docusaurus-blog/2020/04/13/github-page"/>
+        <updated>2020-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前言]]></summary>
     </entry>
 </feed>
