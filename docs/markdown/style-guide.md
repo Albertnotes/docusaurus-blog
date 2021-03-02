@@ -1,10 +1,11 @@
 ---
-id: doc1
+id: style-guide
 title: Style Guide
 sidebar_label: Style Guide
 slug: /
-# routeBasePath: '/'
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
@@ -91,7 +92,7 @@ Reference-style: ![alt text][logo]
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
-![img](../static/img/logo.svg)
+![img](/img/logo.svg)
 
 ---
 
