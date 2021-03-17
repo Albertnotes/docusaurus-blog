@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{90:function(e){e.exports=JSON.parse('{"allTagsPath":"/docusaurus-blog/tags","slug":"leetcode","name":"leetcode","count":1,"permalink":"/docusaurus-blog/tags/leetcode"}')}}]);

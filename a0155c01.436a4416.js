@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[26],{95:function(o){o.exports=JSON.parse('{"permalink":"/docusaurus-blog/page/2","page":2,"postsPerPage":3,"totalPages":4,"totalCount":10,"previousPage":"/docusaurus-blog/","nextPage":"/docusaurus-blog/page/3","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
