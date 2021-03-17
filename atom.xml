@@ -7,7 +7,6 @@
     <link rel="alternate" href="https://albertnotes.github.io/"/>
     <subtitle>AlbertNotes Blog</subtitle>
     <icon>https://albertnotes.github.io/img/favicon.ico</icon>
-    <rights>Copyright © 2021 Albert, All rights reserved.</rights>
     <entry>
         <title type="html"><![CDATA[ssh-key 指令產生]]></title>
         <id>2020/09/17/ssh-key</id>

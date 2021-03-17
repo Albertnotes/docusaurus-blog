@@ -7,7 +7,6 @@
         <lastBuildDate>Thu, 17 Sep 2020 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>Copyright © 2021 Albert, All rights reserved.</copyright>
         <item>
             <title><![CDATA[ssh-key 指令產生]]></title>
             <link>https://albertnotes.github.io/docusaurus-blog/2020/09/17/ssh-key</link>
