@@ -1,0 +1,17 @@
+{
+	"md-create-page": {
+		"prefix": "md-create-page",
+		"body": ["---", "id: ", "title: ", "sidebar_label: ", "slug: ", "---"],
+		"description": "md-create-page"
+	},
+	"md-break-important": {
+		"prefix": "md-break-important",
+		"body": [":::important", "", ":::"],
+		"description": "md-break-important"
+	},
+	"md-break-note": {
+		"prefix": "md-break-note",
+		"body": [":::note", "", ":::"],
+		"description": "md-break-note"
+	}
+}

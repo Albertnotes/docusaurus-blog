@@ -2,7 +2,7 @@
 id: style-guide
 title: Style Guide
 sidebar_label: Style Guide
-slug: /
+slug: /markdown/style-guide
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -38,7 +38,7 @@ module.exports = {
 					routeBasePath: '/',
 					// Please change this to your repo.
 					editUrl:
-						'https://github.com/albertnotes/docusaurus-blog/edit/master/blog/',
+						'https://github.com/albertnotes/docusaurus-blog/edit/master/',
 					postsPerPage: 3,
 					feedOptions: {
 						type: 'all',
